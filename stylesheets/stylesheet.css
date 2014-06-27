@@ -378,6 +378,10 @@ footer a:hover {
   height: 0;
 }
 
+.stack-overflow{
+   margin-top:30px;
+}
+
 .clearfix {display: inline-block;}
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
