@@ -56,7 +56,7 @@ body {
   background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-weight: 400;
-  color: #666;
+  color: #333;
 }
 
 a {
@@ -181,7 +181,7 @@ pre {
   border: solid 1px #f2f2f2;
 }
 pre code {
-  color: #2879d0;
+  color: #FF0000;
   background-color: #fff;
   border: none;
   padding: 0;
@@ -271,10 +271,11 @@ form {
 }
 
 #main-content h4 {
-  font-family: 'Open Sans', sans-serif;', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 16px;
-  font-weight: bold;
-  color: #2e7bcf;
+  font-family: 'Open Sans', sans-serif;
+font-size: 18px;
+font-weight: 700;
+color: #1E90FF;
+margin-bottom: 10px;
 } 
 
 /*h4:before {
@@ -328,8 +329,18 @@ blockquote {
 }
 
 ul {
-  list-style: disc inside;
-  padding-left: 20px;
+  list-style: disc;
+  padding-left: 10px;
+  font-size:
+}
+
+li {
+  margin-left: 20px;
+  font-size:14px;
+}
+
+li span{
+	font-weight:bold;
 }
 
 ol {
